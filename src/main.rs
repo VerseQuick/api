@@ -57,8 +57,8 @@ struct ApiDoc;
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
     let db_url = dotenvy::var("DATABASE_URL").unwrap();
-    let port_string = dotenvy::var("PORT").unwrap_or(String::from("7000"));
-    let port: u16 = port_string.parse().unwrap_or(7000);
+    let port_string = dotenvy::var("PORT").unwrap_or(String::from("8000"));
+    let port: u16 = port_string.parse().unwrap_or(8000);
     let pool = PgPoolOptions::new().connect(db_url.as_str()).await.unwrap();
     let app_data = AppData { pool };
     std::env::set_var("RUST_LOG", "warn");

@@ -43,7 +43,7 @@ impl Hello {
     pub fn default() -> Self {
         let greeting = String::from("Hello there");
         let name = String::from("Bible API");
-        let about = String::from("REST API to serve bible verses");
+        let about = String::from("REST API to serve verses for versequick.com");
         let docs = String::from("/docs");
         let repository = String::from(env!("CARGO_PKG_REPOSITORY"));
         let database = String::from("Postgresql");
