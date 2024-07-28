@@ -37,7 +37,7 @@ Right now, the API is deployed at two URLs.
 1. [api.versequick.com](https://api.versequick.com/)
 2. [api.bible.berinaniesh.xyz](https://api.bible.berinaniesh.xyz/)
 
-If you'd like to host the API other URLs, 
+If you'd like to host the API at other URLs, 
 feel free to contact [Berin Aniesh](https://berinaniesh.xyz/contact) for any assistance. 
 
 ## Bible requests
