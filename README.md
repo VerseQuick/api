@@ -40,6 +40,10 @@ Right now, the API is deployed at two URLs.
 If you'd like to host the API at other URLs, 
 feel free to contact [Berin Aniesh](https://berinaniesh.xyz/contact) for any assistance. 
 
+### SQL Dump
+
+The current database dump in zst compressed format is present in the `sql` folder of the repo. Check it out [here](https://github.com/VerseQuick/api/blob/main/sql/latest_full.sql.zst).
+
 ## Bible requests
 
 If you would like to add a Bible translation to the API,
